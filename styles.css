@@ -102,6 +102,11 @@ body {
     color: #000000ff;
     text-align: center;
 }
+
+.data {
+  transition: all 0.3s ease;
+}
+
 @media (max-width: 600px) {
   .converter-body {
     width: 90%;
