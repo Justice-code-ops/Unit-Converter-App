@@ -1,0 +1,104 @@
+body {
+    background: #afadb8ff;
+    color: white;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+
+:root {
+    --background: linear-gradient(from left, blue, red);
+}
+
+.converter-body {
+    width: 600px;
+    /* border: 3px solid #ffff; */
+    margin: auto;
+    border-radius: 20px;
+    padding: 8px 7px;
+    background: linear-gradient(360deg, blue, red);
+    box-shadow: 0 0 10px black;
+}
+
+.main {
+    background: #4c42bbff;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 0 10px black;
+}
+.main p {
+    font-size: 30px;
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+.main input {
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    outline: none;
+    font-family: inherit;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 15px;
+    border: none;
+    background: #080808ff;
+    color: #09ffadff;
+    box-shadow: 0 0 5px black;
+
+}
+.main button {
+    display: block;
+    margin: 30px auto;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #c74c4cff, #2f80ed);
+    color: #ffffffff;
+    border: none;
+    box-shadow: 0 0 5px black;
+}
+.main button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(90deg, #3b33a3, #009fd9);
+}
+
+.converters {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: contain;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.unit {
+    width: 100%;
+    background: #ebe8e8ff;
+    border-radius:5px;
+    margin: 30px;
+    box-shadow: 0 0 10px black;
+}
+.unit p.header{
+    color: #000000ff;
+    text-align: center;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px 3px black;
+}
+
+.unit p.data {
+    color: #000000ff;
+    text-align: center;
+}
