@@ -28,9 +28,9 @@ convertButton.addEventListener("click", function(){
 
     unitOne.innerHTML = `${convertingNumber} feets = <strong>${meters.toFixed(3)}</strong> meters | ${convertingNumber} meters = <strong>${feet.toFixed(3)}</strong> feets`
 
-    unitTwo.innerHTML = `${convertingNumber} liters = <strong>${usgallon.toFixed(3)}</strong> gallons | ${convertingNumber} gallons = <strong>${usliter.toFixed(3)}</strong> liters - <strong>For U.S Measurement</strong>`
+    unitTwo.innerHTML = `${convertingNumber} liters = <strong>${usgallon.toFixed(3)}</strong> gallons | ${convertingNumber} gallons = <strong>${usliter.toFixed(3)}</strong> liters`
 
-    unitThree.innerHTML = `${convertingNumber} liters = <strong>${ukgallon.toFixed(3)}</strong> gallons | ${convertingNumber} gallons = <strong>${ukliter.toFixed(3)}</strong> liters - <strong>For U.K Measurement</strong>`
+    unitThree.innerHTML = `${convertingNumber} liters = <strong>${ukgallon.toFixed(3)}</strong> gallons | ${convertingNumber} gallons = <strong>${ukliter.toFixed(3)}</strong> liters`
 
     unitFour.innerHTML = `${convertingNumber} kilograms = <strong>${pounds.toFixed(3)}</strong> pounds | ${convertingNumber} pounds = <strong>${kilogram.toFixed(3)}</strong> liters`
 
