@@ -35,6 +35,6 @@ convertButton.addEventListener("click", function(){
     unitFour.innerHTML = `${convertingNumber} kilos = <strong>${pounds.toFixed(3)}</strong> pounds | ${convertingNumber} pounds = <strong>${kilogram.toFixed(3)}</strong> Kilos`
     if (!convertingNumber) {
         alert("Please input a number");
-        return;
+        return "";
     }
 })
