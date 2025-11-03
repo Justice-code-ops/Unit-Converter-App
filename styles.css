@@ -102,3 +102,28 @@ body {
     color: #000000ff;
     text-align: center;
 }
+@media (max-width: 600px) {
+  .converter-body {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .main input {
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+  }
+
+  .main p {
+    font-size: 24px;
+  }
+
+  .unit p.header {
+    font-size: 18px;
+  }
+
+  .main button {
+    width: 100%;
+  }
+}
+
