@@ -32,6 +32,9 @@ convertButton.addEventListener("click", function(){
 
     unitThree.innerHTML = `${convertingNumber} liters = <strong>${ukgallon.toFixed(3)}</strong> gallons | ${convertingNumber} gallons = <strong>${ukliter.toFixed(3)}</strong> liters`
 
-    unitFour.innerHTML = `${convertingNumber} kilograms = <strong>${pounds.toFixed(3)}</strong> pounds | ${convertingNumber} pounds = <strong>${kilogram.toFixed(3)}</strong> liters`
-
+    unitFour.innerHTML = `${convertingNumber} kilos = <strong>${pounds.toFixed(3)}</strong> pounds | ${convertingNumber} pounds = <strong>${kilogram.toFixed(3)}</strong> Kilos`
+    if (!convertingNumber) {
+        alert("Please input a number");
+        return;
+    }
 })
